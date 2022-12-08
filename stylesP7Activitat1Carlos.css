@@ -1,0 +1,134 @@
+/* Estils del div petit de color vermell */
+.myDivGranA
+{
+    /* Vora del div */
+    border: 1px outset #7BA2D1;
+    /* Mida del div, amplada */
+    width: 160px;
+    /* Mida del div, alçada */
+    height: 120px;
+    /* La seva posició és absoluta respecte a l'element pare, és a dir, respecte al body */
+    position: absolute;
+    /* Marge amb el body - alçada */
+    top: 140px;
+    /* Marge amb el body - esquerra */
+    left: 100px;
+    /* Fons blau cel */
+    background: #F43A3B;
+    /* Amb z-index aconseguirem que aquest div estigui superposat per sobre d'un altre div */
+    /* Si és més elevada, té més prioritat */
+    z-index: 1;
+}
+/* Estils del div petit de color verd */
+.myDivPetitA
+{
+    /* Vora del div */
+    border: 1px outset #7BA2D1;
+    /* On estarà situat respecte l'element pare, en aquest cas el Div gran */
+    /* 60 px respecte l'alçada */
+    top: 60px;
+    /* 100 px respecte el marge esquerre */
+    left: 100px;
+    /* 20 px respecte el marge dret */
+    right: 20px;
+    /* 20 px respecte el marge inferior */
+    bottom: 20px;
+    /* Mida del div, amplada */
+    width: 40px;
+    /* Mida del div, alçada */
+    height: 40px;
+    /* La seva posició és absoluta respecte a l'element pare, és a dir, respecte al div pare */
+    position: absolute;
+    /* Fons groc */
+    background: #32C387;
+}
+/* Estils del div petit de color blau */
+.myDivGranB
+{
+    /* Vora del div */
+    border: 1px outset #7BA2D1;
+    /* Mida del div, amplada */
+    width: 160px;
+    /* Mida del div, alçada */
+    height: 120px;
+    /* La seva posició és absoluta respecte a l'element pare, és a dir, respecte al body */
+    position: absolute;
+    /* Marge amb el body - alçada */
+    top: 40px;
+    /* Marge amb el body - esquerra */
+    left: 20px;
+    /* Fons blau cel */
+    background: #7BA2D1;
+    /* Amb z-index aconseguirem que aquest div estigui superposat per sobre d'un altre div */
+    /* Si és més elevada, té més prioritat */
+    z-index: 2;
+}
+/* Estils del div petit de color groc */
+.myDivPetitB
+{
+    /* Vora del div */
+    border: 1px outset #7BA2D1;
+    /* On estarà situat respecte l'element pare, en aquest cas el Div gran */
+    /* 20 px respecte l'alçada */
+    top: 20px;
+    /* 20 px respecte el marge esquerre */
+    left: 20px;
+    /* 20 px respecte el marge dret */
+    right: 100px;
+    /* 60 px respecte el marge inferior */
+    bottom: 60px;
+    /* Mida del div, amplada */
+    width: 40px;
+    /* Mida del div, alçada */
+    height: 40px;
+    /* La seva posició és absoluta respecte a l'element pare, és a dir, respecte al div pare */
+    position: absolute;
+    /* Fons groc */
+    background: #ECE00E;
+}
+
+.imagen
+{
+    width: 100%;
+    /* Amplada del 100% per tal que l'amplada de la imatge s'ajusti al div */
+    /*height: 100%;*/
+    alt: "Foto de nuvols";
+    /* Missatge alternatiu que es mostrar en cas que no hi hagi imatge*/
+    opacity: 0.4;
+    /* Opacitat de la imatge del 0,4/1 */
+}
+/* Posició relativa del div general on introduirem la imatge i els texts */
+.contenidor
+{
+    position: relative;
+    /* Posició relativa */
+    width: 100%;
+    /* Amplada del 100% per tal que l'amplada de la imatge s'ajusti al div */
+    /*height: 600px;*/
+}
+/* Classe per situar el text en la part central del div */
+.centrat
+{
+    position: absolute;
+    /* Posició absoluta */
+    top: 50%;
+    /* Separat 1/2 respecte la posició inferior per assegurar que estigui al centre del div */
+    width: 100%;
+    /* Amplada del 100% per tal que l'amplada de la imatge s'ajusti al div */
+    text-align: center;
+    /* Text alineat al centre */
+    font-size: 18px;
+    /* Mida de les lletres (18 px) */
+}
+/* Classe per situar el text en la part inferior esquerra del div */
+.esquerrasota 
+{
+    position: absolute;
+    /* Posició absoluta */
+    bottom: 5%;
+    /* Separació del 5% respecte la posició inferior */
+    left: 5%;
+    /* Separació del 5% respecte el marge esquerre */
+    font-size: 18px;
+    /* Mida de les lletres (18 px) */
+}
